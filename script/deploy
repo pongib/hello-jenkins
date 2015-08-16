@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh -t pongtsu@128.199.221.0 <<EOF
+ssh -t -t pongtsu@128.199.221.0 <<EOF
   cd ~/hello-jenkins
   git pull
   npm install
